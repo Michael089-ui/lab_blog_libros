@@ -1,0 +1,130 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #AAF6E2;
+    margin: 0;
+}
+
+/* Estilos Header */
+.banner h1{
+    text-align: center;
+    text-decoration: dashed;
+    color: #137DD5;
+}
+
+.banner p{ 
+    text-align: center;
+    font-style: italic;
+    color: rgb(0, 0, 0);
+
+}
+
+
+/* Estilos Reseñas */
+.content-Reseñas {
+    background-color: #7FDAC2;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+    
+  }
+
+  #titulo-Reseñas{
+    color: rgb(249, 249, 253);
+  }
+  
+  .libros {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .container-Libro {
+    width: 200px;
+    text-align: center;
+  }
+
+  .container-Libro h3{
+    color:  #08A279;
+    margin-top: 20px;
+
+  }
+  .container-Libro h4{
+    color: rgba(0, 0, 0, 0.756);
+    margin-top: 20px;
+  }
+  
+  .container-Libro img {
+    width: 100%; 
+    height: auto; 
+    margin-top: 20px;
+    border-radius: 15px;
+  }
+
+  /* Estilos autores */
+
+  .content-Autores{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+  }
+
+  #titulo-Autores{
+    color:rgb(255, 255, 255);
+  }
+
+  .autores {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .container-Autores img{
+    border-radius: 12px;
+  }
+
+  .container-Autores h3{
+    color:  rgb(8, 162, 121);
+    margin-top: 20px;
+    }
+
+    .container-Autores img {
+        width: 200px; 
+        height: auto;
+        margin-top: 20px;
+    }
+
+
+  /* Estilos Editoriales */
+
+  .content-Editoriales {
+    background-color: rgb(127, 218, 194);
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+
+  }
+ .editoriales{ 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+ }
+ .conteiner-editoriale{
+    width: 200px;
+    text-align: center;
+ }
+
+ .content-Editoriales img {
+    width: 200px; 
+    height: auto;
+  }
+
+  #titulo-Editoriales{
+    color: rgb(249, 249, 253);
+  }

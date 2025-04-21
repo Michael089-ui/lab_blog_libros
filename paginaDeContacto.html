@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <div class="fondo">
+        <img src="Imagenes/contact.jpg" alt="fondo_superior" class="imagen-fondo">
+        <div class="texto">
+          <h1>¡CONTACTANOS!</h1>
+          <p>Estamos para ti y lo que necesites</p>
+        </div>
+    </div>
+
+    <div class="contenedor">
+        <div class="contenido">
+            <form action="procesar.php" method="post">
+                <label for="nombre" id="Nombre">Nombres</label> <br>
+                <input type="text" id="nombre" required class="espacio">
+            
+                <br><br>
+            
+                <label for="email" id="Apellido">Apellido</label> <br>
+                <input type="text" id="email"  required class="espacio">
+            
+                <br><br>
+            
+                <label for="mensaje" id="Correo">Correo electrónico</label><br>
+                <input type="email" required class="espacio"></input>
+                
+
+                <br><br>
+            
+                <label for="mensaje" id="Mensaje">Mensaje</label><br>
+                <textarea id="mensaje" rows="5" cols="30" required class="espacio"> </textarea>
+            
+                <br><br>
+            
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+
+        <div class="redes">
+            <h1 id="h1_redes">Siguenos en nuestras redes sociales</h1>
+            <div>
+                <img src="Imagenes/face.avif" alt="facebook" id="im_face"> 
+                <img src="Imagenes/insta.jpg" alt="instagram" id="im_inst"> <br>
+                <label id="face">Cuenta de facebook</label>
+                <label id="insta">@entre_libros</label> <br>
+                <img src="Imagenes/X.jpg" alt="X" id="im_X">
+                <img src="Imagenes/tiktok.jpg" alt="tiktok" id="im_tik"> <br>
+                <label id="X">@EntreLibros</label>
+                <label id="tiktok">@Entre.Libros</label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
