@@ -27,7 +27,7 @@ body, html {
     transform: translate(-3%, -52%);
     z-index: 2; 
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #137DD5;
     padding: 5px 240px 5px 300px;
     border-radius: 10px;
     text-align: center;
@@ -35,7 +35,6 @@ body, html {
 
   .contenido {
     padding: 30px;
-    background-color: beige;
     width: 30%;
     height: 100%;
   }
@@ -74,9 +73,8 @@ body, html {
     box-sizing: border-box;
   }
 
-  .redes{
-    width: 60%;
-    background-color: white;
+  #redes{
+    background-color: #AAF6E2;
   }
 
   .contenido{
@@ -87,12 +85,11 @@ body, html {
     width: 250px;
     height: 250px;
     padding: 20px;
-    margin-left: 150px;
   }
 
   #im_inst{
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
     padding: 20px;
   }
 
@@ -100,7 +97,6 @@ body, html {
     width: 250px;
     height: 250px;
     padding: 20px;
-    margin-left: 150px;
   }
 
   #im_tik{
@@ -110,13 +106,30 @@ body, html {
   }
 
   #insta{
-    margin-left: 230px;
+    margin-left: 80px;
   }
 
   #face{
-    margin-left: 200px;
+    margin-left: 55px;
+  }
+
+  #X{
+    margin-left: 80px;
+  }
+
+  #tiktok{
+    margin-left: 85px;
+  }
+
+
+  #formula{
+    background-color: #7FDAC2;
   }
 
   #h1_redes{
+    text-align: center;
+  }
+
+  #h2_datos{
     text-align: center;
   }
