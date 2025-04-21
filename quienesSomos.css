@@ -1,123 +1,85 @@
- 
-* Estilos de la página*/
+
+/* Estilos de la página*/
 
 body {
-
-    font-family: Arial, Helvetica, sans-serif;; 
-
-    line-height: 1.6; /* Espaciado entre líneas */
-
-    margin: 100px; 
-
-    color: #000000; 
-
-    text-align: center; 
-
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px; 
     background-color: #aaf6e2; 
-
 }
- 
+
 h1 {
-
     color: #137dd5; 
-
     font-size: 50px; 
-
 }
- 
+
 /* Estilos para las secciones */
 
-section {
-
-    background-color: #7fdac2; 
-
-    padding: 50px; 
-
-    margin-bottom: 20px; /* Espacio entre las secciones */
-
-    border-radius: 8px; 
-
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.11); /* Sombra para las secciones */
-
-    text-align: center; 
-
+.team-container{
+    display: flex;
+    justify-content:center ; /* Centrar horizontalmente */
+    gap: 30px; /* Espacio entre imagen */
+    margin-top: 20px; /* Espacio superior*/
 }
- 
+
+section {
+    background-color: #7fdac2; 
+    padding: 50px; 
+    margin-bottom: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.11); 
+    text-align: center; 
+}
+
 /* Estilos específicos para la sección  historia y  propósito */
- 
+
 .historia-proposito {
-
-    display: flex; 
-
     gap: 20px; /* Espacio entre columnas */
 
 }
- 
+
 .historia-proposito > div {
-
     flex: 1; /*div -> ocupe la misma cantidad de espacio */
-
 }
- 
+
 .historia-proposito h2 {
-
     color: #08a279; 
-
     text-align: center;
-
     font-size: 30px;
-
 }
- 
- 
+
 /* Estilos para la sección equipo */
- 
+
 .team-equipo h2 {
-
     text-align: center;
-
     margin: 5px;
-
     color: #08a279; 
-
     font-size: 30px;
-
 }
- 
+
 .team-container {
-
     display: flex; 
-
     justify-content:center ; /* Centrar horizontalmente */
-
     gap: 50px; /* Espacio entre imagen */
-
     margin-top: 20px; /* Espacio superior*/
 
 }
- 
- 
+
+.seccion-con-margen {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 /* Estilos para cada miembro del equipo */
- 
+
 .equipo img {
-
     width: 200px; 
-
     height: 200px; 
-
     border-radius: 50%; 
-
     object-fit: cover; 
-
     margin-bottom: 5px; 
-
 }
- 
+
 .equipo p {
-
     margin-top: 5px; /* Espacio encima*/
-
     color: black; 
-
 }
- 
