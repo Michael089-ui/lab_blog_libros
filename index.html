@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Entre Libros</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
   <link rel="stylesheet" href="nav.css">
   <link rel="stylesheet" href="footer.css">
@@ -25,87 +26,98 @@
     
    </header>
 
-   <section class="banner">
-
-    <H1>Entre Libros</H1>
-    <p>✨ Donde cada página cuenta una historia ✨</p>
-   </section>
-
-   <section class="content-Reseñas">
-    
-      <h2 id="titulo-Reseñas">📖 Últimas Reseñas 📖</h2>
-   
-
-          <div class="libros">
-
-           <div class="container-Libro">
-            <h3>El imperio Final</h3>
-            <h4>Por Brandon Sanderson</h4>
-            <img src="./Imagenes/Libro1.jpg" alt="Libro el Imperio Final">            
-           </div>
-
-           <div class="container-Libro">
-            <h3>It</h3>
-            <h4>Por Stephen king</h4>
-            <img src="./Imagenes/Libro2.jpg" alt="Libro it">            
-           </div>
-
-           <div class="container-Libro">
-            <h3>Part of Your World</h3>
-            <h4>Por Abby Jimenez</h4>
-            <img src="./Imagenes/Libro3.jpg" alt="Libro el Imperio Final">            
-           </div> 
-           
-          </div>
-
-   </section>
-
-   <section class="content-Autores">
-
-    <h2 id="titulo-Autores">🖋️ Autores destacados 🖋️</h2>
-
-        
-    <div class="autores">
-    <div class="container-Autores">
-          <h3>Brandon Sanderson</h3>
-         <img src="./Imagenes/Autor 1.jpg" alt="Foto Brandon Sanderson">            
-         </div>
-
-         <div class="container-Autores">
-          <h3>Cassandra Clare</h3>
-         <img src="./Imagenes/Autor 2.jpg" alt="Foto Cassandra Clare">            
-         </div>
-
-
-         <div class="container-Autores">
-          <h3>Rick Riordan</h3>
-         <img src="./Imagenes/Autor 3.jpg" alt="Foto Rick Riordan">            
-         </div>
-        </div>
-  </section>
-
-  <section class="content-Editoriales">
-    <h2 id="titulo-Editoriales">Editoriales Colaboración</h2>
-
-    <div class="editoriales">
-      <div class="conteiner-editoriales">
-        <h3>Penguin Random</h3>
-        <img src="./Imagenes/Editorial 1.png" alt="logo penguin random house">
-      </div>
-      <div class="conteiner-editoriales">
-        <h3>Calixta Editores</h3>
-        <img src="./Imagenes/Editorial 2.png" alt="logo Calixta">
-      </div>
-      <div class="conteiner-editoriales">
-        <h3>Panamericana</h3>
-        <img src="./Imagenes/Editorial 3.png" alt="logo panamericana editorial">
-      </div>
-      
-
+   <section class="bg-1 text-center py-5">
+    <div class="container ">
+      <h1 class="display-4 bg-2">Entre Libros</h1>
+      <p class="lead">✨ Donde cada página cuenta una historia ✨</p>
     </div>
-
-   
-
+  </section>
+  
+  <section class="py-5 bg-3">
+    <div class="container">
+      <h2 class="text-center mb-4 bg-5">📖 Últimas Reseñas 📖</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        
+        <div class="col">
+          <div class="card h-100 bg-4">
+            <img src="./Imagenes/Libro1.jpg" class="card-img-top" alt="Libro el Imperio Final" style="object-fit: cover; height: auto;">
+            <div class="card-body">
+              <h5 class="card-title bg-2">El imperio Final</h5>
+              <p class="card-text">Por Brandon Sanderson</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card h-100 bg-4">
+            <img src="./Imagenes/Libro2.jpg" class="card-img-top" alt="Libro It" style="object-fit: cover; height: auto;">
+            <div class="card-body">
+              <h5 class="card-title bg-2">It</h5>
+              <p class="card-text">Por Stephen King</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card h-100 bg-4">
+            <img src="./Imagenes/Libro3.jpg" class="card-img-top" alt="Libro Part of Your World" style="object-fit: cover; height: auto;">
+            <div class="card-body">
+              <h5 class="card-title bg-2">Part of Your World</h5>
+              <p class="card-text">Por Abby Jimenez</p>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  <section class="bg-1 py-5">
+    <div class="container">
+      <h2 class="text-center mb-4 bg-2">🖋️ Autores destacados 🖋️</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+  
+        <div class="col text-center">
+          <img src="./Imagenes/Autor 1.jpg" class="img-fluid rounded-circle mb-2" alt="Foto Brandon Sanderson" style="width:150px; height:150px;">
+          <h5>Brandon Sanderson</h5>
+        </div>
+  
+        <div class="col text-center">
+          <img src="./Imagenes/Autor 2.jpg" class="img-fluid rounded-circle mb-2" alt="Foto Cassandra Clare" style="width:150px; height:150px;">
+          <h5>Cassandra Clare</h5>
+        </div>
+  
+        <div class="col text-center">
+          <img src="./Imagenes/Autor 3.jpg" class="img-fluid rounded-circle mb-2" alt="Foto Rick Riordan" style="width:150px; height:150px;">
+          <h5>Rick Riordan</h5>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  <section class="py-5 bg-3">
+    <div class="container">
+      <h2 class="text-center mb-4 bg-5">📚 Editoriales Colaboración 📚</h2>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+  
+        <div class="col text-center">
+          <img src="./Imagenes/Editorial 1.png" class="img-fluid mb-2" alt="Logo Penguin Random House" style="height:100px;">
+          <h5>Penguin Random</h5>
+        </div>
+  
+        <div class="col text-center">
+          <img src="./Imagenes/Editorial 2.png" class="img-fluid mb-2" alt="Logo Calixta Editores" style="height:100px;">
+          <h5>Calixta Editores</h5>
+        </div>
+  
+        <div class="col text-center">
+          <img src="./Imagenes/Editorial 3.png" class="img-fluid mb-2" alt="Logo Panamericana" style="height:100px;">
+          <h5>Panamericana</h5>
+        </div>
+  
+      </div>
+    </div>
   </section>
 
   
