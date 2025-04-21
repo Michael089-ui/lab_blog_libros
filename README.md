@@ -1,2 +1,2 @@
-# lab_blog_libros
-Refactorización de laboratorio anterior e implementación de nuevas features 
+# ad-l8
+AD-14-1 The Blog Site Refactor - Group
